@@ -6,12 +6,12 @@ namespace Hangman_Game
 
         public override Word CreateWordList()
         {
-            return CallAPI.getInstance().GetWord("animal","pt-br");
+            return CallAPI.getInstance().GetWord("animals","pt-br").Result;
         }
 
         public string GetCategories()
         {
-            return;
+            return "Animais";
         }
     }
 }
