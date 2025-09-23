@@ -1,3 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-Console.WriteLine("Hello, World!");
+CreateWordCreator createAnimal = new AnimalsFactory();
+
+IWordFactory animal = createAnimal.AnimaisCategory();
+
+animal.getCategories();
