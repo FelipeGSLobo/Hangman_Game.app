@@ -12,11 +12,22 @@
 /dataSources/
 /dataSources.local.xml
 # Visual Studio
-.vs/
-*.user
-*.suo
-*.cache
-*.log
-bin/
-obj/
+# Build results
+*.dll
+*.exe
+*.pdb
+
+# NuGet packages
+*.nupkg
+packages/
+*.snupkg
+
+# User-specific files
+*.vspscc
+*.vssscc
+
+# Test results
+TestResults/
+*.trx
+*.coverage
 
