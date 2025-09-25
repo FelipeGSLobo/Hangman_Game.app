@@ -25,6 +25,7 @@ packages/
 # User-specific files
 *.vspscc
 *.vssscc
+.vs/
 
 # Test results
 TestResults/
