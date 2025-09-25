@@ -11,3 +11,12 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.cache
+*.log
+bin/
+obj/
+
