@@ -1,34 +1,54 @@
-# Default ignored files
+# IDEs e configurações locais
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider
 /shelf/
 /workspace.xml
-# Rider ignored files
 /modules.xml
 /contentModel.xml
 /.idea.Hangman_Game.iml
 /projectSettingsUpdater.xml
-# Editor-based HTTP Client requests
-/httpRequests/
-# Datasource local storage ignored files
-/dataSources/
-/dataSources.local.xml
-# Visual Studio
-# Build results
+
+# Visual Studio build
+bin/
+obj/
 *.dll
 *.exe
 *.pdb
+*.cache
+*.log
 
-# NuGet packages
+# NuGet
 *.nupkg
-packages/
 *.snupkg
+packages/
 
-# User-specific files
-*.vspscc
-*.vssscc
-.vs/
-
-# Test results
+# Testes
 TestResults/
 *.trx
 *.coverage
+
+# HTTP Client
+/httpRequests/
+
+# Data sources
+/dataSources/
+/dataSources.local.xml
+
+# Controle de versão antigo
+*.vspscc
+*.vssscc
+
+# Arquivos temporários e de sistema
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+Thumbs.db
+
 
