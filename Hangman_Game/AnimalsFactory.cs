@@ -1,10 +1,10 @@
 namespace Hangman_Game
 {
-    internal class AnimaisFactory : WordCreatorFactory
+    internal class AnimalsFactory : WordCreatorFactory
     {
         public override IWordCreator CreateWordCreator()
         {
-            return new AnimaisCategory();
+            return new AnimalsCategory();
         }
     }
 }

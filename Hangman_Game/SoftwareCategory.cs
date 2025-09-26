@@ -2,14 +2,12 @@ namespace Hangman_Game
 {
     internal class SoftwareCategory : IWordCreator
     {
-        public SoftwareCategory Category { get; set; }
-
-        public override Word CreateWordList()
+        public Word CreateWordList()
         {
-            return CallAPI.getInstance().GetWord("softwares","en").Result;
+            return CallAPI.GetInstance().GetWord("softwares","en").Result;
         }
 
-        public string GetCategories()
+        public string getCategories()
         {
             return "Software";
         }

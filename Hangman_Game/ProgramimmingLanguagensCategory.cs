@@ -2,14 +2,12 @@ namespace Hangman_Game
 {
     internal class ProgramimmingLanguagensCategory : IWordCreator
     {
-        public Category Category { get; set; }
-
-        public override Word CreateWordList()
+        public Word CreateWordList()
         {
-            return CallAPI.getInstance().GetWord("programming_languages","en").Result;
+            return CallAPI.GetInstance().GetWord("programming_languages","en").Result;
         }
 
-        public string GetCategories()
+        public string getCategories()
         {
             return "Animais";
         }

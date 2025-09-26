@@ -1,15 +1,14 @@
 namespace Hangman_Game
 {
-    internal class EsportesCategory : IWordCreator
+    internal class GamesCategory : IWordCreator
     {
-        public EsportesCategory Category { get; set; }
 
-        public override Word CreateWordList()
+        public Word CreateWordList()
         {
-            return CallAPI.getInstance().GetWord("games","en").Result;
+            return CallAPI.GetInstance().GetWord("games","en").Result;
         }
 
-        public string GetCategories()
+        public string getCategories()
         {
             return "Jogos";
         }

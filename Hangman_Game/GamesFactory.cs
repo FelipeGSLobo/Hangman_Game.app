@@ -4,7 +4,7 @@ namespace Hangman_Game
     {
         public override IWordCreator CreateWordCreator()
         {
-            return new GamesFactory();
+            return new GamesCategory();
         }
     }
 }

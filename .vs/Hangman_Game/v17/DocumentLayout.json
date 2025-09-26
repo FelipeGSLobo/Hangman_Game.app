@@ -1,0 +1,114 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Hangman_Game.app\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4257205F-54C2-48C6-8771-E800CA2451F7}|Hangman_Game\\Hangman_Game.csproj|e:\\hangman_game.app\\hangman_game\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4257205F-54C2-48C6-8771-E800CA2451F7}|Hangman_Game\\Hangman_Game.csproj|solutionrelative:hangman_game\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4257205F-54C2-48C6-8771-E800CA2451F7}|Hangman_Game\\Hangman_Game.csproj|e:\\hangman_game.app\\hangman_game\\iwordsfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4257205F-54C2-48C6-8771-E800CA2451F7}|Hangman_Game\\Hangman_Game.csproj|solutionrelative:hangman_game\\iwordsfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4257205F-54C2-48C6-8771-E800CA2451F7}|Hangman_Game\\Hangman_Game.csproj|e:\\hangman_game.app\\hangman_game\\animalscategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4257205F-54C2-48C6-8771-E800CA2451F7}|Hangman_Game\\Hangman_Game.csproj|solutionrelative:hangman_game\\animalscategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4257205F-54C2-48C6-8771-E800CA2451F7}|Hangman_Game\\Hangman_Game.csproj|e:\\hangman_game.app\\hangman_game\\wordcreatorfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4257205F-54C2-48C6-8771-E800CA2451F7}|Hangman_Game\\Hangman_Game.csproj|solutionrelative:hangman_game\\wordcreatorfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4257205F-54C2-48C6-8771-E800CA2451F7}|Hangman_Game\\Hangman_Game.csproj|e:\\hangman_game.app\\hangman_game\\animalsfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4257205F-54C2-48C6-8771-E800CA2451F7}|Hangman_Game\\Hangman_Game.csproj|solutionrelative:hangman_game\\animalsfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Hangman_Game.app\\Hangman_Game\\Program.cs",
+              "RelativeDocumentMoniker": "Hangman_Game\\Program.cs",
+              "ToolTip": "E:\\Hangman_Game.app\\Hangman_Game\\Program.cs",
+              "RelativeToolTip": "Hangman_Game\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T14:20:53.517Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IWordsFactory.cs",
+              "DocumentMoniker": "E:\\Hangman_Game.app\\Hangman_Game\\IWordsFactory.cs",
+              "RelativeDocumentMoniker": "Hangman_Game\\IWordsFactory.cs",
+              "ToolTip": "E:\\Hangman_Game.app\\Hangman_Game\\IWordsFactory.cs",
+              "RelativeToolTip": "Hangman_Game\\IWordsFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T14:22:05.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AnimalsCategory.cs",
+              "DocumentMoniker": "E:\\Hangman_Game.app\\Hangman_Game\\AnimalsCategory.cs",
+              "RelativeDocumentMoniker": "Hangman_Game\\AnimalsCategory.cs",
+              "ToolTip": "E:\\Hangman_Game.app\\Hangman_Game\\AnimalsCategory.cs",
+              "RelativeToolTip": "Hangman_Game\\AnimalsCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T14:21:39.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AnimalsFactory.cs",
+              "DocumentMoniker": "E:\\Hangman_Game.app\\Hangman_Game\\AnimalsFactory.cs",
+              "RelativeDocumentMoniker": "Hangman_Game\\AnimalsFactory.cs",
+              "ToolTip": "E:\\Hangman_Game.app\\Hangman_Game\\AnimalsFactory.cs",
+              "RelativeToolTip": "Hangman_Game\\AnimalsFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T14:21:31.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WordCreatorFactory.cs",
+              "DocumentMoniker": "E:\\Hangman_Game.app\\Hangman_Game\\WordCreatorFactory.cs",
+              "RelativeDocumentMoniker": "Hangman_Game\\WordCreatorFactory.cs",
+              "ToolTip": "E:\\Hangman_Game.app\\Hangman_Game\\WordCreatorFactory.cs",
+              "RelativeToolTip": "Hangman_Game\\WordCreatorFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T14:16:40.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

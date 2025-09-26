@@ -1,7 +1,16 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-CreateWordCreator createAnimal = new AnimalsFactory();
+using Hangman_Game;
 
-IWordFactory animal = createAnimal.AnimaisCategory();
+internal class Program
+{
+    private static void Main(string[] args)
+    {
+        WordCreatorFactory factory = new AnimalsFactory();
 
-animal.getCategories();
+        IWordCreator animal = factory.CreateWordCreator();
+
+        animal.getCategories();
+        animal.CreateWordList();
+    }
+}

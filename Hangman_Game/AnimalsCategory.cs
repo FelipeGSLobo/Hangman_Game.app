@@ -1,6 +1,6 @@
 namespace Hangman_Game
 {
-    internal class AnimaisCategory : IWordCreator
+    internal class AnimalsCategory : IWordCreator
     {
 
         public Word CreateWordList()
