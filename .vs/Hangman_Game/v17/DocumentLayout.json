@@ -7,8 +7,16 @@
       "RelativeMoniker": "D:0:0:{4257205F-54C2-48C6-8771-E800CA2451F7}|Hangman_Game\\Hangman_Game.csproj|solutionrelative:hangman_game\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{4257205F-54C2-48C6-8771-E800CA2451F7}|Hangman_Game\\Hangman_Game.csproj|e:\\hangman_game.app\\hangman_game\\selectcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4257205F-54C2-48C6-8771-E800CA2451F7}|Hangman_Game\\Hangman_Game.csproj|solutionrelative:hangman_game\\selectcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4257205F-54C2-48C6-8771-E800CA2451F7}|Hangman_Game\\Hangman_Game.csproj|e:\\hangman_game.app\\hangman_game\\iwordsfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4257205F-54C2-48C6-8771-E800CA2451F7}|Hangman_Game\\Hangman_Game.csproj|solutionrelative:hangman_game\\iwordsfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4257205F-54C2-48C6-8771-E800CA2451F7}|Hangman_Game\\Hangman_Game.csproj|e:\\hangman_game.app\\hangman_game\\uifacade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4257205F-54C2-48C6-8771-E800CA2451F7}|Hangman_Game\\Hangman_Game.csproj|solutionrelative:hangman_game\\uifacade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4257205F-54C2-48C6-8771-E800CA2451F7}|Hangman_Game\\Hangman_Game.csproj|e:\\hangman_game.app\\hangman_game\\animalscategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,6 +25,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{4257205F-54C2-48C6-8771-E800CA2451F7}|Hangman_Game\\Hangman_Game.csproj|e:\\hangman_game.app\\hangman_game\\wordcreatorfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4257205F-54C2-48C6-8771-E800CA2451F7}|Hangman_Game\\Hangman_Game.csproj|solutionrelative:hangman_game\\wordcreatorfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4257205F-54C2-48C6-8771-E800CA2451F7}|Hangman_Game\\Hangman_Game.csproj|e:\\hangman_game.app\\hangman_game\\sportsfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4257205F-54C2-48C6-8771-E800CA2451F7}|Hangman_Game\\Hangman_Game.csproj|solutionrelative:hangman_game\\sportsfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4257205F-54C2-48C6-8771-E800CA2451F7}|Hangman_Game\\Hangman_Game.csproj|e:\\hangman_game.app\\hangman_game\\gamescategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4257205F-54C2-48C6-8771-E800CA2451F7}|Hangman_Game\\Hangman_Game.csproj|solutionrelative:hangman_game\\gamescategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4257205F-54C2-48C6-8771-E800CA2451F7}|Hangman_Game\\Hangman_Game.csproj|e:\\hangman_game.app\\hangman_game\\gamesfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4257205F-54C2-48C6-8771-E800CA2451F7}|Hangman_Game\\Hangman_Game.csproj|solutionrelative:hangman_game\\gamesfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4257205F-54C2-48C6-8771-E800CA2451F7}|Hangman_Game\\Hangman_Game.csproj|e:\\hangman_game.app\\hangman_game\\animalsfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -40,28 +60,109 @@
               "RelativeDocumentMoniker": "Hangman_Game\\Program.cs",
               "ToolTip": "E:\\Hangman_Game.app\\Hangman_Game\\Program.cs",
               "RelativeToolTip": "Hangman_Game\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-26T14:20:53.517Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SportsFactory.cs",
+              "DocumentMoniker": "E:\\Hangman_Game.app\\Hangman_Game\\SportsFactory.cs",
+              "RelativeDocumentMoniker": "Hangman_Game\\SportsFactory.cs",
+              "ToolTip": "E:\\Hangman_Game.app\\Hangman_Game\\SportsFactory.cs",
+              "RelativeToolTip": "Hangman_Game\\SportsFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T15:06:54.402Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "SelectCategory.cs",
+              "DocumentMoniker": "E:\\Hangman_Game.app\\Hangman_Game\\SelectCategory.cs",
+              "RelativeDocumentMoniker": "Hangman_Game\\SelectCategory.cs",
+              "ToolTip": "E:\\Hangman_Game.app\\Hangman_Game\\SelectCategory.cs",
+              "RelativeToolTip": "Hangman_Game\\SelectCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T14:50:47.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UIFacade.cs",
+              "DocumentMoniker": "E:\\Hangman_Game.app\\Hangman_Game\\UIFacade.cs",
+              "RelativeDocumentMoniker": "Hangman_Game\\UIFacade.cs",
+              "ToolTip": "E:\\Hangman_Game.app\\Hangman_Game\\UIFacade.cs",
+              "RelativeToolTip": "Hangman_Game\\UIFacade.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T14:33:32.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GamesCategory.cs",
+              "DocumentMoniker": "E:\\Hangman_Game.app\\Hangman_Game\\GamesCategory.cs",
+              "RelativeDocumentMoniker": "Hangman_Game\\GamesCategory.cs",
+              "ToolTip": "E:\\Hangman_Game.app\\Hangman_Game\\GamesCategory.cs",
+              "RelativeToolTip": "Hangman_Game\\GamesCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T14:28:23.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GamesFactory.cs",
+              "DocumentMoniker": "E:\\Hangman_Game.app\\Hangman_Game\\GamesFactory.cs",
+              "RelativeDocumentMoniker": "Hangman_Game\\GamesFactory.cs",
+              "ToolTip": "E:\\Hangman_Game.app\\Hangman_Game\\GamesFactory.cs",
+              "RelativeToolTip": "Hangman_Game\\GamesFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T14:28:10.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "IWordsFactory.cs",
               "DocumentMoniker": "E:\\Hangman_Game.app\\Hangman_Game\\IWordsFactory.cs",
               "RelativeDocumentMoniker": "Hangman_Game\\IWordsFactory.cs",
               "ToolTip": "E:\\Hangman_Game.app\\Hangman_Game\\IWordsFactory.cs",
               "RelativeToolTip": "Hangman_Game\\IWordsFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-26T14:22:05.154Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "AnimalsCategory.cs",
               "DocumentMoniker": "E:\\Hangman_Game.app\\Hangman_Game\\AnimalsCategory.cs",
               "RelativeDocumentMoniker": "Hangman_Game\\AnimalsCategory.cs",
@@ -74,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "AnimalsFactory.cs",
               "DocumentMoniker": "E:\\Hangman_Game.app\\Hangman_Game\\AnimalsFactory.cs",
               "RelativeDocumentMoniker": "Hangman_Game\\AnimalsFactory.cs",
@@ -87,7 +188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "WordCreatorFactory.cs",
               "DocumentMoniker": "E:\\Hangman_Game.app\\Hangman_Game\\WordCreatorFactory.cs",
               "RelativeDocumentMoniker": "Hangman_Game\\WordCreatorFactory.cs",
@@ -97,14 +198,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-26T14:16:40.943Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             }
           ]
         }
