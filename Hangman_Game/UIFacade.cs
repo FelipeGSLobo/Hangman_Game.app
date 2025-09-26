@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Hangman_Game;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,21 +9,32 @@ namespace UIFacade
 {
     internal class UIFacade
     {
-        public void startGame()
+        private SelectCategory selectCategory;
+
+        public UIFacade()
         {
+            selectCategory = new SelectCategory();
+        }
+        public void StartGame(string category)
+        {
+            selectCategory.selectCategory(category);
             Console.WriteLine("Game Started");
         }
-        public void playTurn()
+
+        public void PlayTurn(char guess)
         {
-            Console.WriteLine("Turn Played");
+            
         }
-        public void showStatus()
+
+        public void ShowStatus()
         {
-            Console.WriteLine("Status Shown");
+          
         }
-        public void restart()
+
+        public void Restart(string category)
         {
-            Console.WriteLine("Game Restarted");
+            
         }
     }
+
 }

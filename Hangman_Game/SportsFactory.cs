@@ -1,6 +1,6 @@
 namespace Hangman_Game
 {
-    internal class EsportesFactory : WordCreatorFactory
+    internal class SportsFactory : WordCreatorFactory
     {
         public override IWordCreator CreateWordCreator()
         {
