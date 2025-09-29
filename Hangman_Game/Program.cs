@@ -56,7 +56,6 @@ internal class Program
                 char letra = input[0];
                 facade.PlayTurn(letra);
             }
-
     
         }
 

@@ -6,7 +6,8 @@ namespace Hangman_Game
 
         public Word CreateWordList()
         {
-            return CallAPI.GetInstance().GetWord("games","en").Result;
+            palavra =  CallAPI.GetInstance().GetWord("games","en").Result;
+            return palavra;
         }
 
         public string getCategories()
