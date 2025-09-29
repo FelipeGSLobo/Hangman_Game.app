@@ -23,7 +23,6 @@ namespace Hangman_Game
         public async Task<Word> GetWord(String theme, String language)
         {
             String finalUri = $"{_uri}&language={language}&category={theme}";
-            Console.WriteLine(finalUri);
             using (var client = new HttpClient())
             {
                 var response = await client.GetAsync(finalUri);
@@ -32,7 +31,6 @@ namespace Hangman_Game
                     try
                     {
                         var jsonString = await response.Content.ReadAsStringAsync();
-                        Console.WriteLine(jsonString);
                         var words = System.Text.Json.JsonSerializer.Deserialize<List<Word>>(jsonString);
                         return words[0];
                     }catch(Exception ex)
