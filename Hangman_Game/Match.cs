@@ -42,6 +42,7 @@ public class Match
         
         if (TriedLetters.Contains(letter))
         {
+
             Console.WriteLine($"Já houve uma tentativa para a letra: \"{letter}\"...");
             return false;
         }
@@ -52,7 +53,7 @@ public class Match
         {
             TriesCount--;
             
-            if (TriesCount <= 0)
+            if (TriesCount < 1)
             {
                 Console.WriteLine("Game Over");
                 Console.WriteLine("Você esgotou suas tentativas... Boa sorte na proxima!");
@@ -70,9 +71,13 @@ public class Match
 
         foreach (char letra in word.EntireWord)
         {
-            if (TriedLetters.Contains(letra))
+            // Normaliza a letra da palavra para minúsculo
+            char letraNormalizada = char.ToLowerInvariant(letra);
+
+            // Verifica se a letra normalizada está entre as tentadas (também normalizadas)
+            if (TriedLetters.Any(l => char.ToLowerInvariant(l) == letraNormalizada))
             {
-                resultado += letra + " ";
+                resultado += letra + " "; // exibe a letra original (com acento ou maiúscula)
             }
             else
             {
@@ -80,7 +85,7 @@ public class Match
             }
         }
 
-        return resultado.Trim(); 
+        return resultado.Trim();
     }
 
 }
