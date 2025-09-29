@@ -9,7 +9,7 @@ namespace Hangman_Game
 
         public string getCategories()
         {
-            return "Animais";
+            return "Lingaugem de programação";
         }
     }
 }

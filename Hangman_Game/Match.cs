@@ -4,7 +4,7 @@ public class Match
 {
     protected static Match? instance = null;
     
-    public Word Word {get; set;}
+    public Word word {get; set;}
     public List<Char> TriedLetters {get; set;}
     public int TriesCount {get; set;}
     
@@ -17,12 +17,17 @@ public class Match
 
     public static Match GetInstance()
     {
-        return instance ??= new Match();
+        if(instance == null)
+        {
+            instance = new Match();
+        }
+       
+           return instance;
     }
 
     public void StartMatch(Word word)
     {
-        this.Word = word;
+        this.word = word;
         this.TriedLetters.Clear();
     }
 
@@ -39,7 +44,7 @@ public class Match
         
         this.TriedLetters.Add(letter);
 
-        if (!Word.EntireWord.Contains(letter, StringComparison.OrdinalIgnoreCase))
+        if (!word.EntireWord.Contains(letter, StringComparison.OrdinalIgnoreCase))
         {
             TriesCount--;
             
@@ -54,12 +59,24 @@ public class Match
         
         return true;
     }
-    
+
     public string GetWordProgress()
     {
-        var progress = Word.EntireWord
-            .Select(c => TriedLetters.Contains(c) ? c : '_')
-            .ToArray();
-        return string.Join(" ", progress);
+        string resultado = "";
+
+        foreach (char letra in word.EntireWord)
+        {
+            if (TriedLetters.Contains(letra))
+            {
+                resultado += letra + " ";
+            }
+            else
+            {
+                resultado += "_ ";
+            }
+        }
+
+        return resultado.Trim(); 
     }
+
 }
