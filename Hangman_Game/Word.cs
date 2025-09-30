@@ -11,7 +11,7 @@ public class Word
 
     public string EntireWord
     {
-        get { return word; }
+        get { return word.ToUpper(); }
     }
 
     public bool ContainsLetter(char letter)

@@ -48,7 +48,7 @@ namespace Hangman_Game
                 return;
             }
 
-            Match.GetInstance().SetWord(palavra);
+            Match.GetInstance().StartMatch(palavra);
         }
     }
 }
